@@ -13,6 +13,7 @@ namespace StudentAPI.Models
         public string Gender { get; set; }
         public int Age { get; set; }
         [Column(TypeName = "varchar(500)")]
+        
         public string Image_Path { get; set; }
     }
 }
